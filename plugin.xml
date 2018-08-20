@@ -15,13 +15,13 @@
     </engines>
 
     <platform name="android">
-        <resource-file src="src/android/arm64-v8a/libjcore123.so" target="jniLibs/arm64-v8a/libjcore123.so"/>
-        <resource-file src="src/android/armeabi/libjcore123.so" target="jniLibs/armeabi/libjcore123.so"/>
-        <resource-file src="src/android/armeabi-v7a/libjcore123.so" target="jniLibs/armeabi-v7a/libjcore123.so"/>
-        <resource-file src="src/android/mips/libjcore123.so" target="jniLibs/mips/libjcore123.so"/>
-        <resource-file src="src/android/mips64/libjcore123.so" target="jniLibs/mips64/libjcore123.so"/>
-        <resource-file src="src/android/x86/libjcore123.so" target="jniLibs/x86/libjcore123.so"/>
-        <resource-file src="src/android/x86_64/libjcore123.so" target="jniLibs/x86_64/libjcore123.so"/>
+        <resource-file src="src/android/arm64-v8a/libjcore123.so" target="libs/arm64-v8a/libjcore123.so"/>
+        <resource-file src="src/android/armeabi/libjcore123.so" target="libs/armeabi/libjcore123.so"/>
+        <resource-file src="src/android/armeabi-v7a/libjcore123.so" target="libs/armeabi-v7a/libjcore123.so"/>
+        <resource-file src="src/android/mips/libjcore123.so" target="libs/mips/libjcore123.so"/>
+        <resource-file src="src/android/mips64/libjcore123.so" target="libs/mips64/libjcore123.so"/>
+        <resource-file src="src/android/x86/libjcore123.so" target="libs/x86/libjcore123.so"/>
+        <resource-file src="src/android/x86_64/libjcore123.so" target="libs/x86_64/libjcore123.so"/>
 
         <lib-file src="src/android/jcore-android-1.2.3.jar" />
     </platform>
